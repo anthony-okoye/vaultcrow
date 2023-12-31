@@ -1,0 +1,13 @@
+2023/12/31-18:39:52.385 5f64 Recovering log #12
+2023/12/31-18:39:52.386 5f64 Level-0 table #14: started
+2023/12/31-18:39:52.392 5f64 Level-0 table #14: 20298 bytes OK
+2023/12/31-18:39:52.398 5f64 Delete type=0 #12
+2023/12/31-18:39:52.399 5f64 Delete type=3 #10
+2023/12/31-18:39:52.399 64ac Compacting 4@0 + 0@1 files
+2023/12/31-18:39:52.408 64ac Generated table #16@0: 272 keys, 44765 bytes
+2023/12/31-18:39:52.408 64ac Compacted 4@0 + 0@1 files => 44765 bytes
+2023/12/31-18:39:52.410 64ac compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/12/31-18:39:52.411 64ac Delete type=2 #5
+2023/12/31-18:39:52.411 64ac Delete type=2 #8
+2023/12/31-18:39:52.411 64ac Delete type=2 #11
+2023/12/31-18:39:52.412 64ac Delete type=2 #14

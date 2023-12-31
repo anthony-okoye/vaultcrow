@@ -1,0 +1,13 @@
+2023/12/31-18:39:52.364 2c04 Recovering log #12
+2023/12/31-18:39:52.365 2c04 Level-0 table #14: started
+2023/12/31-18:39:52.370 2c04 Level-0 table #14: 12562 bytes OK
+2023/12/31-18:39:52.379 2c04 Delete type=0 #12
+2023/12/31-18:39:52.379 2c04 Delete type=3 #10
+2023/12/31-18:39:52.380 64ac Compacting 4@0 + 0@1 files
+2023/12/31-18:39:52.388 64ac Generated table #16@0: 19 keys, 37430 bytes
+2023/12/31-18:39:52.388 64ac Compacted 4@0 + 0@1 files => 37430 bytes
+2023/12/31-18:39:52.390 64ac compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/12/31-18:39:52.390 64ac Delete type=2 #5
+2023/12/31-18:39:52.391 64ac Delete type=2 #8
+2023/12/31-18:39:52.391 64ac Delete type=2 #11
+2023/12/31-18:39:52.391 64ac Delete type=2 #14
