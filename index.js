@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { Web5 } = require('@web5/api');
 const { setWeb5Instance, setDidInstance } = require('./web5Instance');
+const escrowProtocol = require('./protocols/protocols');
 
 const startServer = async () => {
 const app = express();
@@ -16,6 +17,16 @@ const { web5, did } = await Web5.connect();
 // Set the instances in the module
 setWeb5Instance(web5);
 setDidInstance(did);
+
+const { protocol, status } = await web5.dwn.protocols.configure({
+    message: {
+      definition: escrowProtocol,
+    },
+  });
+
+  //sends protocol to remote DWNs immediately (vs waiting for sync)
+await protocol.send(did);
+
 // Write DWN Records
 const { record } = await web5.dwn.records.create({
     data: 'Hello, Web5!',
