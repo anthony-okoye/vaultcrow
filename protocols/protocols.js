@@ -1,5 +1,5 @@
 const escrowProtocol = {
-    "protocol": "https://escrow-system.xyz",
+    "protocol": "https://escrow-system.xyz/escrow-system-protocol",
     "published": true,
     "types": {
       "user": {
